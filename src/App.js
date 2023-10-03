@@ -18,7 +18,7 @@ function App() {
     
         <main>
           <h1>Welcome to my website!</h1>
-          {/* <fieldset id = "about-me-fieldset">
+          <fieldset id = "about-me-fieldset">
               <legend> About Me </legend>
               <div className="about-me">
                   <h2>Info</h2>
@@ -40,8 +40,8 @@ function App() {
                   <script src="./contact.js"></script>
                   <p></p>
               </div>
-          </fieldset> */}
-          {/* <p>
+          </fieldset> 
+          {/* {/* <p>
           </p>
           <fieldset id="my-projects-fieldset">
               <legend> My projects </legend>
