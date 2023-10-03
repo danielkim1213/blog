@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+/* eslint-disable */
+
 import './App.css';
 
 function App() {
@@ -8,10 +9,10 @@ function App() {
         <nav>
           <ul>
               <li>
-                  <a href="#about-me-fieldset">About Me</a>
+                  <a >About Me</a>
               </li>
               <li>
-                  <a href="#my-projects-fieldset">My Projects</a>
+                  <a >My Projects</a>
               </li> 
           </ul>
         </nav>
