@@ -12,91 +12,10 @@ code {
     monospace;
 }
 
-html {
-  background-color: black;
-  min-height: 300%;
-}
-
-
-canvas {
-position:absolute;
-width: 100%;
-z-index: -1;
-opacity: 0.35;
-margin: 0;
-}
-
-body
-{
-color: white;
-opacity: 1;
-margin: 0;
-padding: 0;
-}
-
-h1 {
-text-align: center;
-color: rgb(47, 45, 45);
-font-size: 50px;
-font-family: 'Source Code Pro', monospace;
-text-transform: uppercase;
--webkit-text-stroke: 1.2px #22d5a8;
-margin: 0;
-padding: 25px;
-}
-
-.link{
-color:rgb(8, 168, 254);
-}
-
-h2 {
-color: white;
-font-size: 20px;
-font-family: 'Source Code Pro', monospace;
-}
-
-main {
-justify-content: space-between;
-padding-top: 4rem;
-}
-
-fieldset{
-width: 90%;
-margin: auto;
-white-space: nowrap;
-margin-bottom: 40px;
-background-color: #00000050;
-border-color: #ffffffb4;
-}
-
-legend {
-color: rgb(255, 255, 255);
-font-size: 30px;
-font-family: 'Source Code Pro', monospace;
-font-weight: bold;
-}
-
-
-.about-me, .contact-info {
-display: inline-block;
-vertical-align: top;
-}
-
-.about-me{
-width: 50%; 
-padding: 5px;
-}
-
-.contact-info{
-width: 50%; 
-padding: 5px;
-}
-
 nav {
 position: fixed;
 width: 100%;
-border-bottom: 1px solid #ffffffb1;
-background-color: #000;
+border-bottom: 1px solid #000000b1;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -111,10 +30,9 @@ align-items: center;
 
 ul a {
 text-decoration: none;
-color: #ffffff;
+color: #000000;
 padding: 0 1.5rem;
 text-transform: uppercase;
-font-family: 'Source Code Pro', monospace;
 font-size: 0.9rem;
 font-weight: bold;
 }
@@ -123,87 +41,3 @@ ul a:hover{
   font-size: 0.92rem;
 }
 
-#text-container {
-font-family: 'Source Code Pro', monospace;
-font-size: 17px;
-white-space: nowrap;
-color: white;
-}
-
-#contact-container {
-font-family: 'Source Code Pro', monospace;
-font-size: 17px;
-white-space: nowrap;
-color: white;
-}
-
-.btn,
-.shadow {
-display: inline-block;
-font-weight: 600;
-text-align: center;
-white-space: nowrap;
-vertical-align: middle;
-position: relative;
-background: #EAC118;
-padding: 0 25px;
-text-decoration: none;
-line-height: 44px;
-text-transform: uppercase;
-font-family: Arial;
-color: #ffffff;
-}
-
-.btn::after,
-.shadow:after,
-.shadow:before {
-content: '';
-position: absolute;
-bottom: 0;
-left: 100%;
-width: 0; 
-height: 0;
-z-index: 1;
-border-style: solid;
-border-width: 22px 0px 22px 20px;
-border-color: transparent transparent transparent #EAC118;
-}
-
-.shadow {
-position: absolute;
-top: 4px;
-left: 5px;
-bottom: -5px;
-right: -5px;
-z-index: -1;
-background: #22d5a8f9;
-}
-
-.shadow::after {
-border-color: #000 #000 #000 #22d5a8f9;
-left: calc(100% - 4px);
-z-index: 1;
-}
-
-.shadow::before {
-border-color: transparent transparent transparent #22d5a8f9;
-bottom: 5px;
-z-index: 2;
-}
-
-.shadow > span {
-display: block;
-width: 5px;
-height: 5px;
-border-top: 5px solid #000;
-background: #1fc99fb4;
-position: absolute;
-top: -5px;
-right: -3px;
-z-index: 3;
-}
-
-.btn
-{
-cursor: pointer;
-}
